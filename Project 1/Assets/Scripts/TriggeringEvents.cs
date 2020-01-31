@@ -12,6 +12,7 @@ public class TriggeringEvents : MonoBehaviour
     public UnityEvent uEventStayOne;
     private void OnTriggerEnter(Collider other)
     {
+        intOne = 20;
         print(intOne);
         uEventEnterOne.Invoke();
     }
