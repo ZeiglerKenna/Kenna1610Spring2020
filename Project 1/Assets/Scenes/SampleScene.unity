@@ -188,12 +188,17 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   sphere1: {fileID: 0}
   sphere1Animation: {fileID: 0}
   capsule: 
   uAction:
     m_PersistentCalls:
       m_Calls: []
+=======
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+>>>>>>> Stashed changes
 =======
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
