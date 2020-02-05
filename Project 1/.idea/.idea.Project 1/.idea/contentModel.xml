@@ -11,6 +11,7 @@
           <e p="HWTriggerEvents.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
+          <e p="ReviewController.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
         </e>
