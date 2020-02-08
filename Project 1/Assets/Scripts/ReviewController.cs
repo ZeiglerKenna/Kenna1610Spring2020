@@ -9,11 +9,6 @@ public class ReviewController : MonoBehaviour
     public float jumpForce = 20f;
     public int jumpCountMax = 2;
     private static double jumpCount;
-    void Start()
-    {
-        
-    }
-    
     void Update()
     {
         controller.Move(positionDirection*Time.deltaTime);
