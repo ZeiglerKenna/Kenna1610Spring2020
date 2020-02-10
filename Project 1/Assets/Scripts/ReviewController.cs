@@ -1,14 +1,22 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class ReviewController : MonoBehaviour
 {
-    public CharacterController controller;
+    private CharacterController controller;
     public Vector3 positionDirection;
     public float speed = 10f;
     public float gravity = 3f;
     public float jumpForce = 20f;
     public int jumpCountMax = 2;
-    private static double jumpCount;
+    private int jumpCount;
+
+    private void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
+
     void Update()
     {
         controller.Move(positionDirection*Time.deltaTime);
