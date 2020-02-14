@@ -8,11 +8,15 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Controller.cs" t="Include" />
+          <e p="HwComponentUI.cs" t="Include" />
           <e p="HwControllerPractice.cs" t="Include" />
           <e p="HwIfStatements.cs" t="Include" />
+          <e p="HwScriptingToComponents.cs" t="Include" />
+          <e p="HwTrailComponent.cs" t="Include" />
           <e p="HWTriggerEvents.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
           <e p="PracticeMoveAndDoubleJump.cs" t="Include" />
           <e p="ReviewController.cs" t="Include" />
