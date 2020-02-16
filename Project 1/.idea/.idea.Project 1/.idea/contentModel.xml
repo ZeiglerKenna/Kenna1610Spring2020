@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Controller.cs" t="Include" />
+          <e p="HwCameraFollowsPlayer.cs" t="Include" />
           <e p="HwComponentUI.cs" t="Include" />
           <e p="HwControllerPractice.cs" t="Include" />
           <e p="HwIfStatements.cs" t="Include" />

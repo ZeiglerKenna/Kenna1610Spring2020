@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\HwCameraFollowsPlayer.cs" />
     <Compile Include="Assets\Scripts\HwComponentUI.cs" />
     <Compile Include="Assets\Scripts\HwControllerPractice.cs" />
     <Compile Include="Assets\Scripts\HwIfStatements.cs" />
