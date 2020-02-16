@@ -61,7 +61,9 @@
     <Compile Include="Assets\Scripts\HwComponentUI.cs" />
     <Compile Include="Assets\Scripts\HwControllerPractice.cs" />
     <Compile Include="Assets\Scripts\HwIfStatements.cs" />
+    <Compile Include="Assets\Scripts\HwLensFlareComponentScript.cs" />
     <Compile Include="Assets\Scripts\HwScriptingToComponents.cs" />
+    <Compile Include="Assets\Scripts\HwToggleLight.cs" />
     <Compile Include="Assets\Scripts\HwTrailComponent.cs" />
     <Compile Include="Assets\Scripts\HwTriggerEvents.cs" />
     <Compile Include="Assets\Scripts\IfStatements.cs" />

@@ -1350,7 +1350,7 @@ GameObject:
   - component: {fileID: 1773191283}
   - component: {fileID: 1773191282}
   - component: {fileID: 1773191284}
-  - component: {fileID: 1773191285}
+  - component: {fileID: 1773191281}
   - component: {fileID: 1773191276}
   m_Layer: 0
   m_Name: Sprite for practicing components
@@ -1359,24 +1359,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!143 &1773191276
-CharacterController:
+--- !u!114 &1773191276
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773191275}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8eb51f7b23cbaf46b69d65dc96fe8ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brightness: 10
+  fadeSpeed: 5
 --- !u!114 &1773191277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1530,6 +1526,22 @@ RectTransform:
   m_AnchoredPosition: {x: 308, y: 96}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!123 &1773191281
+LensFlare:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773191275}
+  m_Enabled: 1
+  m_Flare: {fileID: 12100000, guid: db5f606cfdfbaf64981c33559d972705, type: 2}
+  m_Color: {r: 1, g: 0.7921569, b: 0.627451, a: 0}
+  m_Brightness: 1
+  m_FadeSpeed: 3
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 6
+  m_Directional: 0
 --- !u!114 &1773191282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1680,22 +1692,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDropDown: {fileID: 203842076}
   optionCount: 3
---- !u!114 &1773191285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1773191275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3650af7f31510b41a9f148c31797016, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 1773191276}
-  speed: 5
-  gravity: -3
-  jumpForce: 10
 --- !u!1 &1887940990
 GameObject:
   m_ObjectHideFlags: 0

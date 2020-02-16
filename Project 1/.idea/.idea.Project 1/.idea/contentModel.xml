@@ -11,7 +11,9 @@
           <e p="HwComponentUI.cs" t="Include" />
           <e p="HwControllerPractice.cs" t="Include" />
           <e p="HwIfStatements.cs" t="Include" />
+          <e p="HwLensFlareComponentScript.cs" t="Include" />
           <e p="HwScriptingToComponents.cs" t="Include" />
+          <e p="HwToggleLight.cs" t="Include" />
           <e p="HwTrailComponent.cs" t="Include" />
           <e p="HWTriggerEvents.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
