@@ -4,7 +4,7 @@
 
 public class HwToggleLight : MonoBehaviour
 {
-    private Light light;
+    private Light myLight;
     public float intensity = 1f;
     private float duration = 10f;
     public Color color1 = Color.white;
@@ -12,24 +12,24 @@ public class HwToggleLight : MonoBehaviour
 
     private void Start()
     {
-        light = GetComponent<Light>();
+        myLight = GetComponent<Light>();
     }
 
     private void Update()
     {
         if (Input.GetKeyUp(KeyCode.Alpha1))
         {
-            light.enabled = true;
+            myLight.enabled = true;
         }
 
         if (Input.GetKeyUp(KeyCode.Alpha0))
         {
-            light.enabled = false;
+            myLight.enabled = false;
         }
 
         if (Input.GetKeyUp(KeyCode.L))
         {
-            light.enabled = !light.enabled;
+            myLight.enabled = !myLight.enabled;
         }
 
         if (Input.GetKeyUp(KeyCode.Alpha2))
@@ -73,7 +73,7 @@ public class HwToggleLight : MonoBehaviour
         }
 
         float time = Mathf.PingPong(Time.time, duration) / duration;
-        light.color = Color.Lerp(color1, color2, time);
+        myLight.color = Color.Lerp(color1, color2, time);
     }
     
     //Watched this video: https://www.youtube.com/watch?v=PCdg3cnQfZ4 and then played around with components to see what I could do
