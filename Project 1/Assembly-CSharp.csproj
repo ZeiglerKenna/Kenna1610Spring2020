@@ -55,6 +55,12 @@
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data\PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data\PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ComponentsImageBehavior.cs" />
@@ -77,22 +83,23 @@
     <Compile Include="Assets\Scripts\PracticeMoveAndDoubleJump.cs" />
     <Compile Include="Assets\Scripts\ReviewController.cs" />
     <Compile Include="Assets\Scripts\RigidbodyForces.cs" />
+    <Compile Include="Assets\Scripts\textBehavior.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\TriggeringEvents.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/10767729/Documents/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/10767729/Documents/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/10767729/Documents/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/10767729/Documents/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/10767729/Documents/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -289,6 +296,9 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
@@ -296,13 +306,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/10767729/Documents/GitKraken/Kenna1610Spring2020/Project 1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/10767729/Documents/GitKraken/Kenna1610Spring2020/Project 1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/10767729/Documents/GitKraken/Kenna1610Spring2020/Project 1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

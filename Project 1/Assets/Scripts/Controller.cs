@@ -5,7 +5,7 @@ public class Controller : MonoBehaviour
 
     public CharacterController controller;
     private Vector3 positionDirection;
-    public float speed = 5f;
+    public float speed = 35f;
     public float gravity = -3f;
     public float jumpForce = 10f;
 
@@ -15,7 +15,7 @@ public class Controller : MonoBehaviour
     }
     void Update()
     {
-        positionDirection.x = Input.GetAxis("Vertical")*speed;
+        positionDirection.x = Input.GetAxis("Horizontal")*speed;
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             positionDirection.y = jumpForce;

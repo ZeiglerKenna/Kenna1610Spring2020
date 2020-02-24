@@ -6,28 +6,40 @@ using UnityEngine.UI;
 public class ComponentsImageBehavior : MonoBehaviour
 {
     private Image imageObj;
-    public float currentHealth;
+    public FloatData dataObj;
     public float t;
 
     private void Start()
     {
         imageObj = GetComponent<Image>();
 
+    }
+
+    private void Update()
+    {
+        imageObj.fillAmount = dataObj.value;
+        
         if (imageObj.fillAmount <= 0.5)
         {
             imageObj.color = Color.Lerp(Color.green, Color.yellow, t);
             t = t + 0.1f;
         }
 
-        if (imageObj.fillAmount <= 0.02)
+        if (imageObj.fillAmount <= 0.2)
         {
             imageObj.color = Color.Lerp(Color.yellow, Color.red, t);
             t = t + 0.1f;
         }
-    }
+        
+        if (imageObj.fillAmount >= 0.5)
+        {
+            imageObj.color = Color.Lerp(Color.yellow, Color.green, t);
+            t = t + 0.1f;
+        }
 
-    private void Update()
-    {
-        imageObj.fillAmount = currentHealth;
+        if (imageObj.fillAmount <= 0)
+        {
+            
+        }
     }
 }
