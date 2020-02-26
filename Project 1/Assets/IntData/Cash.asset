@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 729e7b5d97f109349b92729293f6b4c3, type: 3}
-  m_Name: Health
+  m_Script: {fileID: 11500000, guid: 495f5941d10c33541878b8ce92d1522c, type: 3}
+  m_Name: Cash
   m_EditorClassIdentifier: 
-  value: 1.3499995
+  value: 3730

@@ -20,8 +20,8 @@ public class ReviewController : MonoBehaviour
     void Update()
     {
         controller.Move(positionDirection*Time.deltaTime);
-        positionDirection.x = Input.GetAxis("Vertical")*speed;
-        positionDirection.z = Input.GetAxis("Horizontal") * -speed;
+        positionDirection.x = Input.GetAxis("Horizontal")*speed;
+        positionDirection.z = Input.GetAxis("Vertical") * speed;
         positionDirection.y -= gravity;
 
         if (controller.isGrounded)
