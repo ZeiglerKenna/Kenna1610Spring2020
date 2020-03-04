@@ -4,7 +4,7 @@
 
 public class IntData : ScriptableObject
 {
-   public float value = 1;
+   public int value = 1;
 
    public void ChangeValue(int number)
    {
