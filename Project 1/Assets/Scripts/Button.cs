@@ -12,10 +12,9 @@ public class Button : MonoBehaviour
    void Start()
     {
         Button btn = uiButton.GetComponent<Button>();
-       btn.onClick.AddListener(TaskOnClick);
     }
     
-    void TaskOnClick()
+    void OnMouseDown()
     {
         Debug.Log ("Congratulations!");
     }

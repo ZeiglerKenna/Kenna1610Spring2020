@@ -59,8 +59,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\CoinSpin.cs" />
+    <Compile Include="Assets\Scripts\ColorData.cs" />
     <Compile Include="Assets\Scripts\ComponentsImageBehavior.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\EmemyMovesOnScriptedPath.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\HwCameraFollowsPlayer.cs" />
     <Compile Include="Assets\Scripts\HwCameraFollowsPlayerOnlyNoMouse.cs" />
