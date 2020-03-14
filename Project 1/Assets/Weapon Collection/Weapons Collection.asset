@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3aa09f186c48e848a83cfef6f381d19, type: 3}
   m_Name: Weapons Collection
   m_EditorClassIdentifier: 
-  collectables: []
+  collectables:
+  - {fileID: 11400000, guid: 91ce431b39fb60841961b704b171a5ed, type: 2}
+  - {fileID: 11400000, guid: a66e6de8540e3324e812feabc21f046b, type: 2}
+  - {fileID: 11400000, guid: d400586849cfa574bb202979e387787b, type: 2}
+  - {fileID: 11400000, guid: 8304d723448be8c439ebf4f6396b2774, type: 2}
+  - {fileID: 11400000, guid: 7dedf3690a74ce54da24aaf3196233f5, type: 2}

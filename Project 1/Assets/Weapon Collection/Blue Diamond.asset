@@ -9,22 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6c431a1dcbc91d41a44661d9e1a16e0, type: 3}
-  m_Name: Characters
+  m_Script: {fileID: 11500000, guid: ef33235c07068ab4d90d788a240593d2, type: 3}
+  m_Name: Blue Diamond
   m_EditorClassIdentifier: 
-  stringList:
-  - Avery
-  - Blake
-  - Hana
-  - Haru
-  - Jackson
-  - Jasper
-  - Kaia
-  - Kotarou
-  - Mateo
-  - Milo
-  - Nora
-  - Runa
-  - Silas
-  - Tori
-  singleString: 
+  powerLevel: 2
+  collectableColor: {r: 0.46742615, g: 0.9811321, b: 0.8914081, a: 1}
+  collectableSprite: {fileID: 21300000, guid: c938e13378bd9414aaef158a5c111392, type: 3}
