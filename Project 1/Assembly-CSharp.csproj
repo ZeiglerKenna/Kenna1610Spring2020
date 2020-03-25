@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\InClass\IfStatements.cs" />
     <Compile Include="Assets\Scripts\InClass\MonoBehaviors.cs" />
     <Compile Include="Assets\Scripts\InClass\MouseEvents.cs" />
+    <Compile Include="Assets\Scripts\InClass\NavAgentBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\InClass\NewClass.cs" />
     <Compile Include="Assets\Scripts\InClass\RigidbodyForces.cs" />
