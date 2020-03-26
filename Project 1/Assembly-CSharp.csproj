@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Homework\AiController.cs" />
     <Compile Include="Assets\Scripts\Homework\Button.cs" />
     <Compile Include="Assets\Scripts\Homework\CoinSpin.cs" />
     <Compile Include="Assets\Scripts\Homework\Countdown.cs" />
