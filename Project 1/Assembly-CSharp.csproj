@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Homework\CoinSpin.cs" />
     <Compile Include="Assets\Scripts\Homework\Countdown.cs" />
     <Compile Include="Assets\Scripts\Homework\EmemyMovesOnScriptedPath.cs" />
+    <Compile Include="Assets\Scripts\Homework\LevelGenerater.cs" />
     <Compile Include="Assets\Scripts\Homework\PracticeMoveAndDoubleJump.cs" />
     <Compile Include="Assets\Scripts\Homework\ReviewController.cs" />
     <Compile Include="Assets\Scripts\Hw\HwCameraFollowsPlayer.cs" />

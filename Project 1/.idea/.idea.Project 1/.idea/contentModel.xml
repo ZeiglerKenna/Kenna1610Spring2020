@@ -13,6 +13,7 @@
             <e p="CoinSpin.cs" t="Include" />
             <e p="Countdown.cs" t="Include" />
             <e p="EmemyMovesOnScriptedPath.cs" t="Include" />
+            <e p="LevelGenerater.cs" t="Include" />
             <e p="PracticeMoveAndDoubleJump.cs" t="Include" />
             <e p="ReviewController.cs" t="Include" />
           </e>
