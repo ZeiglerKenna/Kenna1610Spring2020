@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\Hw\HwTriggerEvents.cs" />
     <Compile Include="Assets\Scripts\InClass\ComponentsImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\Controller.cs" />
+    <Compile Include="Assets\Scripts\InClass\Coroutines.cs" />
     <Compile Include="Assets\Scripts\InClass\EnumsSwitches.cs" />
     <Compile Include="Assets\Scripts\InClass\IfStatements.cs" />
     <Compile Include="Assets\Scripts\InClass\MonoBehaviors.cs" />
@@ -85,7 +86,7 @@
     <Compile Include="Assets\Scripts\InClass\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\InClass\NewClass.cs" />
     <Compile Include="Assets\Scripts\InClass\RigidbodyForces.cs" />
-    <Compile Include="Assets\Scripts\InClass\textBehavior.cs" />
+    <Compile Include="Assets\Scripts\InClass\TextBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\InClass\TriggeringEvents.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Collectable.cs" />
