@@ -30,6 +30,8 @@
             <e p="HwTriggerEvents.cs" t="Include" />
           </e>
           <e p="InClass" t="Include">
+            <e p="AiPatrol.cs" t="Include" />
+            <e p="AlternateCoroutine.cs" t="Include" />
             <e p="ComponentsImageBehavior.cs" t="Include" />
             <e p="Controller.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />

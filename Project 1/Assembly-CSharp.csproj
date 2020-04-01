@@ -75,6 +75,8 @@
     <Compile Include="Assets\Scripts\Hw\HwToggleLight.cs" />
     <Compile Include="Assets\Scripts\Hw\HwTrailComponent.cs" />
     <Compile Include="Assets\Scripts\Hw\HwTriggerEvents.cs" />
+    <Compile Include="Assets\Scripts\InClass\AiPatrol.cs" />
+    <Compile Include="Assets\Scripts\InClass\AlternateCoroutine.cs" />
     <Compile Include="Assets\Scripts\InClass\ComponentsImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\Controller.cs" />
     <Compile Include="Assets\Scripts\InClass\Coroutines.cs" />
@@ -83,7 +85,6 @@
     <Compile Include="Assets\Scripts\InClass\MonoBehaviors.cs" />
     <Compile Include="Assets\Scripts\InClass\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\InClass\NavAgentBehavior.cs" />
-    <Compile Include="Assets\Scripts\InClass\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\InClass\NewClass.cs" />
     <Compile Include="Assets\Scripts\InClass\RigidbodyForces.cs" />
     <Compile Include="Assets\Scripts\InClass\TextBehavior.cs" />
