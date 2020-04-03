@@ -10,11 +10,12 @@ public class NavAgentBehavior : MonoBehaviour
    public float speed = 8f;
    private Transform currentDestination;
    private int i;
+   
    private bool canHunt;
 
    public List<Transform> patrolPoints;
    
-   private void Start()
+   void Start()
    {
       agent = GetComponent<NavMeshAgent>();
       agent.speed = speed;
@@ -33,18 +34,18 @@ public class NavAgentBehavior : MonoBehaviour
       currentDestination = transform;
    }
 
-   private void Update()
+   void Update()
    {
       if (canHunt)
-      {
-         agent.destination = currentDestination.position;
-         return;
-      }
-
-      if (!agent.pathPending && agent.remainingDistance < 0.5f)
-      {
-         agent.destination = patrolPoints[i].position;
-         i = (i + 1) % patrolPoints.Count;
-      }
+       {
+          agent.destination = currentDestination.position;
+          return;
+       }
+       
+       if (!agent.pathPending && agent.remainingDistance < 0.5f)
+       {
+          agent.destination = patrolPoints[i].position;
+          i = (i + 1) % patrolPoints.Count;
+       }
    }
 }

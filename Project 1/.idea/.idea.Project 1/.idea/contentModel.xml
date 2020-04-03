@@ -30,7 +30,6 @@
             <e p="HwTriggerEvents.cs" t="Include" />
           </e>
           <e p="InClass" t="Include">
-            <e p="AiPatrol.cs" t="Include" />
             <e p="AlternateCoroutine.cs" t="Include" />
             <e p="ComponentsImageBehavior.cs" t="Include" />
             <e p="Controller.cs" t="Include" />
@@ -40,7 +39,6 @@
             <e p="MonoBehaviors.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="NavAgentBehavior.cs" t="Include" />
-            <e p="NewBehaviourScript.cs" t="Include" />
             <e p="NewClass.cs" t="Include" />
             <e p="RigidbodyForces.cs" t="Include" />
             <e p="textBehavior.cs" t="Include" />

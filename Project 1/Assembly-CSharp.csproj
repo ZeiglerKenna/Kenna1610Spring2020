@@ -75,7 +75,6 @@
     <Compile Include="Assets\Scripts\Hw\HwToggleLight.cs" />
     <Compile Include="Assets\Scripts\Hw\HwTrailComponent.cs" />
     <Compile Include="Assets\Scripts\Hw\HwTriggerEvents.cs" />
-    <Compile Include="Assets\Scripts\InClass\AiPatrol.cs" />
     <Compile Include="Assets\Scripts\InClass\AlternateCoroutine.cs" />
     <Compile Include="Assets\Scripts\InClass\ComponentsImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\Controller.cs" />
