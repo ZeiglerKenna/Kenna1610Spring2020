@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\InClass\Controller.cs" />
     <Compile Include="Assets\Scripts\InClass\Coroutines.cs" />
     <Compile Include="Assets\Scripts\InClass\EnumsSwitches.cs" />
+    <Compile Include="Assets\Scripts\InClass\Flip.cs" />
     <Compile Include="Assets\Scripts\InClass\IfStatements.cs" />
     <Compile Include="Assets\Scripts\InClass\MonoBehaviors.cs" />
     <Compile Include="Assets\Scripts\InClass\MouseEvents.cs" />

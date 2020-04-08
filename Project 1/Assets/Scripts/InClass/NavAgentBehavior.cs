@@ -41,10 +41,11 @@ public class NavAgentBehavior : MonoBehaviour
           agent.destination = currentDestination.position;
           return;
        }
+      print(agent.steeringTarget);
        
-       if (!agent.pathPending && agent.remainingDistance < 0.5f)
+      if (!agent.pathPending && agent.remainingDistance < 0.5f)
        {
-          agent.destination = patrolPoints[i].position;
+         agent.destination = patrolPoints[i].position;
           i = (i + 1) % patrolPoints.Count;
        }
    }
