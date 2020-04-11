@@ -1,27 +1,42 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.Events;
 
 public class Controller : MonoBehaviour
 {
 
-    public CharacterController controller;
+    private CharacterController controller;
     private Vector3 positionDirection;
-    public float speed = 0f;
-    public float gravity = -3f;
-    public float jumpForce = 10f;
+    public float speed = 10f;
+    public float gravity = 3f;
+    public float jumpForce = 30f;
+    private int jumpCount = 0;
+    public int jumpCountMax = 2;
+    public UnityEvent jumpEvent;
+        
+    private void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
 
     void Update()
     {
-        positionDirection.x = Input.GetAxis("Horizontal")*speed;
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
+        if (controller.isGrounded)
         {
-            positionDirection.y = jumpForce;
+            positionDirection.y = 0;
+            jumpCount = 0;
         }
-        positionDirection.y += -gravity;
-        controller.Move(positionDirection*Time.deltaTime);
-    }
 
-    private void OnTriggerEnter(Collider other)
-    {
-       
+        positionDirection.x = Input.GetAxis("Horizontal") * speed;
+
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+        {
+            jumpEvent.Invoke();
+            positionDirection.y = jumpForce;
+            jumpCount++;
+        }
+
+        positionDirection.y -= gravity;
+        controller.Move(positionDirection * Time.deltaTime);
     }
 }
