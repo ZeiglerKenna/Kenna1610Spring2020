@@ -57,7 +57,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Controller_2D.cs" />
     <Compile Include="Assets\Scripts\Homework\AiController.cs" />
     <Compile Include="Assets\Scripts\Homework\Button.cs" />
     <Compile Include="Assets\Scripts\Homework\CharacterController2D.cs" />
@@ -68,6 +67,7 @@
     <Compile Include="Assets\Scripts\Homework\LevelGenerater.cs" />
     <Compile Include="Assets\Scripts\Homework\PracticeMoveAndDoubleJump.cs" />
     <Compile Include="Assets\Scripts\Homework\ReviewController.cs" />
+    <Compile Include="Assets\Scripts\Homework\SpriteCostumePowerup.cs" />
     <Compile Include="Assets\Scripts\Hw\HwCameraFollowsPlayer.cs" />
     <Compile Include="Assets\Scripts\Hw\HwCameraFollowsPlayerOnlyNoMouse.cs" />
     <Compile Include="Assets\Scripts\Hw\HwComponentUI.cs" />

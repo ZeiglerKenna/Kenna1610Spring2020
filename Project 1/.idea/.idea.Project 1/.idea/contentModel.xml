@@ -6,7 +6,6 @@
     <e p="D:\MyDocuments\GitKraken\Kenna1610Spring2020\Project 1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Controller_2D.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Homework" t="Include">
             <e p="AiController.cs" t="Include" />
@@ -19,6 +18,7 @@
             <e p="LevelGenerater.cs" t="Include" />
             <e p="PracticeMoveAndDoubleJump.cs" t="Include" />
             <e p="ReviewController.cs" t="Include" />
+            <e p="SpriteCostumePowerup.cs" t="Include" />
           </e>
           <e p="Hw" t="Include">
             <e p="HwCameraFollowsPlayer.cs" t="Include" />
