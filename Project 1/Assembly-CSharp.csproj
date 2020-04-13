@@ -79,11 +79,13 @@
     <Compile Include="Assets\Scripts\Hw\HwTrailComponent.cs" />
     <Compile Include="Assets\Scripts\Hw\HwTriggerEvents.cs" />
     <Compile Include="Assets\Scripts\InClass\AlternateCoroutine.cs" />
+    <Compile Include="Assets\Scripts\InClass\AudioSample.cs" />
     <Compile Include="Assets\Scripts\InClass\ComponentsImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\Controller.cs" />
     <Compile Include="Assets\Scripts\InClass\Coroutines.cs" />
     <Compile Include="Assets\Scripts\InClass\EnumsSwitches.cs" />
     <Compile Include="Assets\Scripts\InClass\Flip.cs" />
+    <Compile Include="Assets\Scripts\InClass\Health.cs" />
     <Compile Include="Assets\Scripts\InClass\IfStatements.cs" />
     <Compile Include="Assets\Scripts\InClass\MonoBehaviors.cs" />
     <Compile Include="Assets\Scripts\InClass\MouseEvents.cs" />
@@ -116,6 +118,12 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

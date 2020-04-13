@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Animations;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class NavAgentBehavior : MonoBehaviour
@@ -36,6 +37,7 @@ public class NavAgentBehavior : MonoBehaviour
 
    void Update()
    {
+      transform.LookAt(agent.steeringTarget);
       if (canHunt)
        {
           agent.destination = currentDestination.position;

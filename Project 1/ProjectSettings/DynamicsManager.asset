@@ -3,8 +3,8 @@
 --- !u!55 &1
 PhysicsManager:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
-  m_Gravity: {x: 0, y: -9.81, z: 0}
+  serializedVersion: 10
+  m_Gravity: {x: 0, y: 3, z: 0}
   m_DefaultMaterial: {fileID: 0}
   m_BounceThreshold: 2
   m_SleepThreshold: 0.005
@@ -17,7 +17,7 @@ PhysicsManager:
   m_ClothInterCollisionDistance: 0
   m_ClothInterCollisionStiffness: 0
   m_ContactsGeneration: 1
-  m_LayerCollisionMatrix: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  m_LayerCollisionMatrix: ffffffffc9cbb6ffc9cbb6ffffffffffc9cbb6ffc9cbb6ffffffffffffffffffffffffffffffffffc9ffffffffffffffc9ffffffc9ffb6ffffffffffffffffffc9dfb7ffffffffffffffffffc9dfbeffffffffffffffffffc9dff6ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   m_AutoSimulation: 1
   m_AutoSyncTransforms: 0
   m_ReuseCollisionCallbacks: 1
@@ -31,4 +31,3 @@ PhysicsManager:
   m_FrictionType: 0
   m_EnableEnhancedDeterminism: 0
   m_EnableUnifiedHeightmaps: 1
-  m_DefaultMaxAngluarSpeed: 7

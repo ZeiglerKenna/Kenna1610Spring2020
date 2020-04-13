@@ -1,22 +1,16 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class SpriteCostumePowerup : MonoBehaviour
 {
   public GameObject purplePowerUp;
-  public SpriteRenderer fireSprite;
-  public Sprite mushroomFireSprite;
-
-  private void Start()
-  {
-    fireSprite.GetComponent<SpriteRenderer>();
-  }
-
+  public UnityEvent powerupEvent;
+  
   void OnTriggerEnter(Collider other)
   {
     if (purplePowerUp)
     {
-      fireSprite.sprite = mushroomFireSprite;
-      print("Powerup!");
+      powerupEvent.Invoke();
     }
   }
 }
