@@ -48,6 +48,7 @@
             <e p="NewClass.cs" t="Include" />
             <e p="RigidbodyForces.cs" t="Include" />
             <e p="textBehavior.cs" t="Include" />
+            <e p="TransformBehavior.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
             <e p="TriggeringEvents.cs" t="Include" />
           </e>

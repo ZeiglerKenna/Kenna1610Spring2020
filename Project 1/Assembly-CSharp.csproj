@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\InClass\NewClass.cs" />
     <Compile Include="Assets\Scripts\InClass\RigidbodyForces.cs" />
     <Compile Include="Assets\Scripts\InClass\TextBehavior.cs" />
+    <Compile Include="Assets\Scripts\InClass\TransformBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\InClass\TriggeringEvents.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Collectable.cs" />
@@ -104,6 +105,9 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\ListsAndLoops.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\StringData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -113,17 +117,14 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/MyDocuments/GitKraken/Kenna1610Spring2020/Project 1/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
