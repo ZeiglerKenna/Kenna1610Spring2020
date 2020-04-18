@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 691594955935485506, guid: 9148865b665efaa4c89a5ca4ed244de1,
         type: 3}
       propertyPath: m_Name
-      value: Cash Gains (2)
+      value: Health
       objectReference: {fileID: 0}
     - target: {fileID: 691594955935485511, guid: 9148865b665efaa4c89a5ca4ed244de1,
         type: 3}
@@ -25,7 +25,7 @@ PrefabInstance:
     - target: {fileID: 691594955935485511, guid: 9148865b665efaa4c89a5ca4ed244de1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1064
+      value: -992.6
       objectReference: {fileID: 0}
     - target: {fileID: 691594955935485511, guid: 9148865b665efaa4c89a5ca4ed244de1,
         type: 3}
@@ -84,6 +84,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
         type: 3}
+      propertyPath: uEventEnterOne.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: cc20cd521c22de449bd5dd55c7a77202,
+        type: 2}
+    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
+        type: 3}
+      propertyPath: uEventEnterOne.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
+        type: 3}
       propertyPath: uEventEnterOne.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1000
       objectReference: {fileID: 0}
@@ -92,6 +103,11 @@ PrefabInstance:
       propertyPath: uEventStayOne.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7077147031203091982}
+    - target: {fileID: 691594955935485505, guid: 9148865b665efaa4c89a5ca4ed244de1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 188756fe5d1e8b64f9613c99567a9e39, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9148865b665efaa4c89a5ca4ed244de1, type: 3}
 --- !u!1 &7077147031203091982 stripped

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3121,7 +3121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee47ae3b6ed4204ba70d7ead37485de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataObj: {fileID: 11400000, guid: 778e84466edd2b940983395f147619a7, type: 2}
 --- !u!114 &1766339262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4023,7 +4022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee47ae3b6ed4204ba70d7ead37485de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataObj: {fileID: 11400000, guid: e91dfccad4caa334aaa38ec376f5c79c, type: 2}
 --- !u!114 &2050539205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4224,76 +4222,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 35.728}
---- !u!1 &4444477486893249039 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4444477486893249039, guid: 42a6d10c0dd1434489ceb6e9f369c063,
-    type: 3}
-  m_PrefabInstance: {fileID: 8944661736027103164}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4444477486893249040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4444477486893249039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a2127be211105046b20fb90b799f3b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4444477486893249043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4444477486893249039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 423b9638b4fe0154a9f404c4010e3b73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intOne: 0
-  floatOne: 0
-  stringOne: 
-  uEventEnterOne:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: e91dfccad4caa334aaa38ec376f5c79c, type: 2}
-        m_MethodName: ChangeValue
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 10
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  uEventExitOne:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  uEventStayOne:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4444477486893249039}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &6574471296868698436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4470,11 +4398,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.455
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070449610565687122, guid: 42a6d10c0dd1434489ceb6e9f369c063,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42a6d10c0dd1434489ceb6e9f369c063, type: 3}

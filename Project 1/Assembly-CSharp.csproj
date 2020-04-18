@@ -80,13 +80,14 @@
     <Compile Include="Assets\Scripts\Hw\HwTriggerEvents.cs" />
     <Compile Include="Assets\Scripts\InClass\AlternateCoroutine.cs" />
     <Compile Include="Assets\Scripts\InClass\AudioSample.cs" />
-    <Compile Include="Assets\Scripts\InClass\ComponentsImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\Controller.cs" />
     <Compile Include="Assets\Scripts\InClass\Coroutines.cs" />
     <Compile Include="Assets\Scripts\InClass\EnumsSwitches.cs" />
     <Compile Include="Assets\Scripts\InClass\Flip.cs" />
     <Compile Include="Assets\Scripts\InClass\Health.cs" />
+    <Compile Include="Assets\Scripts\InClass\HealthImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\IfStatements.cs" />
+    <Compile Include="Assets\Scripts\InClass\MagicImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\MonoBehaviors.cs" />
     <Compile Include="Assets\Scripts\InClass\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\InClass\NavAgentBehavior.cs" />

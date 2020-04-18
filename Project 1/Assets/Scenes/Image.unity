@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -411,7 +411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee47ae3b6ed4204ba70d7ead37485de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataObj: {fileID: 11400000, guid: 291d78278f18d7c41a1b5798222ec44c, type: 2}
 --- !u!1 &124434411
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,27 +713,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7077147031203091981, guid: 519ab37f6f4f9b346b7f6530a1d2740d,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 188756fe5d1e8b64f9613c99567a9e39, type: 2}
-    - target: {fileID: 7077147031203091983, guid: 519ab37f6f4f9b346b7f6530a1d2740d,
-        type: 3}
-      propertyPath: uEventEnterOne.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: cc20cd521c22de449bd5dd55c7a77202,
-        type: 2}
-    - target: {fileID: 7077147031203091983, guid: 519ab37f6f4f9b346b7f6530a1d2740d,
-        type: 3}
-      propertyPath: uEventEnterOne.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeValue
-      objectReference: {fileID: 0}
-    - target: {fileID: 7077147031203091983, guid: 519ab37f6f4f9b346b7f6530a1d2740d,
-        type: 3}
-      propertyPath: uEventEnterOne.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 519ab37f6f4f9b346b7f6530a1d2740d, type: 3}
@@ -1352,12 +1330,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1222522856 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 691594955935485506, guid: 9148865b665efaa4c89a5ca4ed244de1,
-    type: 3}
-  m_PrefabInstance: {fileID: 691594956860733866}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1243781241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,7 +1631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee47ae3b6ed4204ba70d7ead37485de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataObj: {fileID: 11400000, guid: 6c8410e792798194691ca7522351d316, type: 2}
 --- !u!114 &1500753465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2109,41 +2080,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
-        type: 3}
-      propertyPath: uEventStayOne.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
-        type: 3}
-      propertyPath: uEventEnterOne.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
-        type: 3}
-      propertyPath: uEventStayOne.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
-        type: 3}
-      propertyPath: uEventStayOne.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
-        type: 3}
-      propertyPath: uEventStayOne.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1222522856}
-    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
-        type: 3}
-      propertyPath: uEventStayOne.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 691594955935485507, guid: 9148865b665efaa4c89a5ca4ed244de1,
-        type: 3}
-      propertyPath: uEventStayOne.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9148865b665efaa4c89a5ca4ed244de1, type: 3}

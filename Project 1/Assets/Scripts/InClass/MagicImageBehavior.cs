@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
 
-public class ComponentsImageBehavior : MonoBehaviour
+public class MagicImageBehavior : MonoBehaviour
 {
     private Image imageObj;
     public FloatData dataObj;
@@ -21,19 +21,19 @@ public class ComponentsImageBehavior : MonoBehaviour
         
         if (imageObj.fillAmount <= 0.5)
         {
-            imageObj.color = Color.Lerp(Color.green, Color.yellow, t);
+            imageObj.color = Color.Lerp(Color.cyan, Color.blue, t);
             t = t + 0.1f;
         }
 
         if (imageObj.fillAmount <= 0.2)
         {
-            imageObj.color = Color.Lerp(Color.yellow, Color.red, t);
+            imageObj.color = Color.Lerp(Color.blue, Color.black, t);
             t = t + 0.1f;
         }
         
         if (imageObj.fillAmount >= 0.5)
         {
-            imageObj.color = Color.Lerp(Color.yellow, Color.green, t);
+            imageObj.color = Color.Lerp(Color.blue, Color.cyan, t);
             t = t + 0.1f;
         }
 
