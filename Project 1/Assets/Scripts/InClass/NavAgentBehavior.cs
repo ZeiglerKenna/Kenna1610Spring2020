@@ -37,13 +37,13 @@ public class NavAgentBehavior : MonoBehaviour
 
    void Update()
    {
-      transform.LookAt(agent.steeringTarget);
-      if (canHunt)
+      //transform.LookAt(agent.steeringTarget);
+      //if (canHunt)
        {
-          agent.destination = currentDestination.position;
-          return;
+      //    agent.destination = currentDestination.position;
+      //    return;
        }
-      print(agent.steeringTarget);
+    //  print(agent.steeringTarget);
        
       if (!agent.pathPending && agent.remainingDistance < 0.5f)
        {
