@@ -33,7 +33,6 @@
             <e p="HwTriggerEvents.cs" t="Include" />
           </e>
           <e p="InClass" t="Include">
-            <e p="AlternateCoroutine.cs" t="Include" />
             <e p="AudioSample.cs" t="Include" />
             <e p="Controller.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
@@ -48,6 +47,7 @@
             <e p="NavAgentBehavior.cs" t="Include" />
             <e p="NewClass.cs" t="Include" />
             <e p="RigidbodyForces.cs" t="Include" />
+            <e p="SimpleCoroutine.cs" t="Include" />
             <e p="textBehavior.cs" t="Include" />
             <e p="TransformBehavior.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />

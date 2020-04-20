@@ -17,32 +17,4 @@ public class TriggerEvents : MonoBehaviour
     {
         triggerExitEvent.Invoke();
     }
-
-    public UnityEvent triggerStayEvent;
-
-    private void OnTriggerStay(Collider other)
-    {
-        triggerStayEvent.Invoke();
-    }
-
-    public UnityEvent triggerEnterEventTwo;
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        triggerEnterEventTwo.Invoke();
-    }
-
-    public UnityEvent triggerExitEventTwo;
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        triggerExitEventTwo.Invoke();
-    }
-
-    public UnityEvent triggerStayEventTwo;
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        triggerStayEventTwo.Invoke();
-    }
 }
