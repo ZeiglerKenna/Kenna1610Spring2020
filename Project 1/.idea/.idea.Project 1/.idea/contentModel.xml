@@ -40,7 +40,9 @@
             <e p="Flip.cs" t="Include" />
             <e p="Health.cs" t="Include" />
             <e p="HealthImageBehavior.cs" t="Include" />
+            <e p="HoldCoroutine.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
+            <e p="Instancing.cs" t="Include" />
             <e p="MagicImageBehavior.cs" t="Include" />
             <e p="MonoBehaviors.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />

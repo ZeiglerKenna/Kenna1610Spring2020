@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class Controller : MonoBehaviour
@@ -11,7 +10,7 @@ public class Controller : MonoBehaviour
     public float gravity = 3f;
     public float jumpForce = 30f;
     private int jumpCount = 0;
-    public int jumpCountMax = 2;
+    public IntData jumpCountMax;
     public UnityEvent jumpEvent;
         
     private void Start()
@@ -29,7 +28,7 @@ public class Controller : MonoBehaviour
 
         positionDirection.x = Input.GetAxis("Horizontal") * speed;
 
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax.value)
         {
             jumpEvent.Invoke();
             positionDirection.y = jumpForce;

@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\InClass\Flip.cs" />
     <Compile Include="Assets\Scripts\InClass\Health.cs" />
     <Compile Include="Assets\Scripts\InClass\HealthImageBehavior.cs" />
+    <Compile Include="Assets\Scripts\InClass\HoldCoroutine.cs" />
     <Compile Include="Assets\Scripts\InClass\IfStatements.cs" />
     <Compile Include="Assets\Scripts\InClass\Instancing.cs" />
     <Compile Include="Assets\Scripts\InClass\MagicImageBehavior.cs" />

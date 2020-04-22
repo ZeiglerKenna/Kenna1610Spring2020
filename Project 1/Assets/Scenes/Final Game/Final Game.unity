@@ -256,6 +256,7 @@ GameObject:
   - component: {fileID: 56237305}
   - component: {fileID: 56237304}
   - component: {fileID: 56237308}
+  - component: {fileID: 56237309}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -278,7 +279,7 @@ MonoBehaviour:
   speed: 100
   gravity: 5
   jumpForce: 200
-  jumpCountMax: 2
+  jumpCountMax: {fileID: 11400000, guid: e05f8ce8429bd1141b1aa3978f41c510, type: 2}
   jumpEvent:
     m_PersistentCalls:
       m_Calls:
@@ -387,6 +388,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Powerup
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1121464021}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -5094,6 +5106,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 56237309}
+        m_MethodName: RunCoroutine
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   triggerExitEvent:
@@ -5136,6 +5159,34 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: -0.05
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &56237309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56237297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895472b5254523f4fbecaec152652cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: e05f8ce8429bd1141b1aa3978f41c510, type: 2}
+        m_MethodName: SetValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -7027,11 +7078,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushroom Powerup
       objectReference: {fileID: 0}
-    - target: {fileID: 8168604481784760543, guid: 7c0751b479eee2446aabe73766976aad,
-        type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
     - target: {fileID: 8168604481784760530, guid: 7c0751b479eee2446aabe73766976aad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7086,11 +7132,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8168604480746900816, guid: 7c0751b479eee2446aabe73766976aad,
-        type: 3}
-      propertyPath: m_Layer
-      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c0751b479eee2446aabe73766976aad, type: 3}
