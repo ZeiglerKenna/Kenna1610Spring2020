@@ -57,16 +57,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CoinCounter.cs" />
+    <Compile Include="Assets\EndTrigger.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Scripts\Homework\AiController.cs" />
     <Compile Include="Assets\Scripts\Homework\Button.cs" />
     <Compile Include="Assets\Scripts\Homework\CoinSpin.cs" />
+    <Compile Include="Assets\Scripts\Homework\Coroutine.cs" />
     <Compile Include="Assets\Scripts\Homework\Countdown.cs" />
     <Compile Include="Assets\Scripts\Homework\EmemyMovesOnScriptedPath.cs" />
+    <Compile Include="Assets\Scripts\Homework\HealthEmptyDeath.cs" />
     <Compile Include="Assets\Scripts\Homework\LevelGenerater.cs" />
     <Compile Include="Assets\Scripts\Homework\PracticeMoveAndDoubleJump.cs" />
-    <Compile Include="Assets\Scripts\Homework\Respawn.cs" />
     <Compile Include="Assets\Scripts\Homework\ReviewController.cs" />
     <Compile Include="Assets\Scripts\Homework\SpriteCostumePowerup.cs" />
+    <Compile Include="Assets\Scripts\Homework\WaterDeath.cs" />
     <Compile Include="Assets\Scripts\Hw\HwCameraFollowsPlayer.cs" />
     <Compile Include="Assets\Scripts\Hw\HwCameraFollowsPlayerOnlyNoMouse.cs" />
     <Compile Include="Assets\Scripts\Hw\HwComponentUI.cs" />
@@ -88,7 +93,7 @@
     <Compile Include="Assets\Scripts\InClass\HealthImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\HoldCoroutine.cs" />
     <Compile Include="Assets\Scripts\InClass\IfStatements.cs" />
-    <Compile Include="Assets\Scripts\InClass\Instancing.cs" />
+    <Compile Include="Assets\Scripts\InClass\InstancingBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\MagicImageBehavior.cs" />
     <Compile Include="Assets\Scripts\InClass\MonoBehaviors.cs" />
     <Compile Include="Assets\Scripts\InClass\MouseEvents.cs" />
