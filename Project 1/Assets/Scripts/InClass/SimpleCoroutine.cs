@@ -2,10 +2,11 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+
 public class SimpleCoroutine : MonoBehaviour
 {
-   private WaitForSeconds waitObj;
    public float seconds = 1f;
+   private WaitForSeconds waitObj;
    public bool canRun { get; set; } = true;
    public UnityEvent repeatEvent;
 

@@ -10,13 +10,12 @@
           <e p="Homework" t="Include">
             <e p="AiController.cs" t="Include" />
             <e p="Button.cs" t="Include" />
-            <e p="CharacterController2D.cs" t="Include" />
             <e p="CoinSpin.cs" t="Include" />
-            <e p="Controller2D.cs" t="Include" />
             <e p="Countdown.cs" t="Include" />
             <e p="EmemyMovesOnScriptedPath.cs" t="Include" />
             <e p="LevelGenerater.cs" t="Include" />
             <e p="PracticeMoveAndDoubleJump.cs" t="Include" />
+            <e p="Respawn.cs" t="Include" />
             <e p="ReviewController.cs" t="Include" />
             <e p="SpriteCostumePowerup.cs" t="Include" />
           </e>
@@ -33,6 +32,8 @@
             <e p="HwTriggerEvents.cs" t="Include" />
           </e>
           <e p="InClass" t="Include">
+            <e p="AlternateCorourtine.cs" t="Include" />
+            <e p="Ammo (1).cs" t="Include" />
             <e p="AudioSample.cs" t="Include" />
             <e p="Controller.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
@@ -49,10 +50,12 @@
             <e p="NavAgentBehavior.cs" t="Include" />
             <e p="NewClass.cs" t="Include" />
             <e p="RigidbodyForces.cs" t="Include" />
+            <e p="Shooter (1).cs" t="Include" />
             <e p="SimpleCoroutine.cs" t="Include" />
             <e p="textBehavior.cs" t="Include" />
+            <e p="TextBehaviour.cs" t="Include" />
             <e p="TransformBehavior.cs" t="Include" />
-            <e p="TriggerEvents.cs" t="Include" />
+            <e p="TriggerBehaviors.cs" t="Include" />
             <e p="TriggeringEvents.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">

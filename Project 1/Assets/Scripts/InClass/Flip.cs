@@ -9,12 +9,12 @@ public class Flip : MonoBehaviour
     
     void Update() 
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(key2))
         {
             transform.rotation = Quaternion.Euler(0, direction1, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(key1))
         {
             transform.rotation = Quaternion.Euler(0,direction2,0);
         }

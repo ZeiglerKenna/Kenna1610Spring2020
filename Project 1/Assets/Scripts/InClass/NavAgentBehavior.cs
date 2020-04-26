@@ -11,8 +11,7 @@ public class NavAgentBehavior : MonoBehaviour
    public float speed = 8f;
    private Transform currentDestination;
    private int i;
-   
-   private bool canHunt;
+   public bool canHunt;
 
    public List<Transform> patrolPoints;
    
@@ -37,12 +36,12 @@ public class NavAgentBehavior : MonoBehaviour
 
    void Update()
    {
-      //transform.LookAt(agent.steeringTarget);
       if (canHunt)
        {
           agent.destination = currentDestination.position;
           return;
        }
+      
        if (!agent.pathPending && agent.remainingDistance < 0.5f)
        {
          agent.destination = patrolPoints[i].position;
