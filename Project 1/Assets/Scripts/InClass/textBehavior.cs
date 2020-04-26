@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Video;
 
 [RequireComponent(typeof(Text))]
 public class TextBehavior : MonoBehaviour
 {
     private Text textObj;
-    
+
     void Start()
     {
         textObj = GetComponent<Text>();

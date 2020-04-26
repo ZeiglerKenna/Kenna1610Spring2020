@@ -6,18 +6,23 @@
     <e p="D:\MyDocuments\GitKraken\Kenna1610Spring2020\Project 1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CoinCounter.cs" t="Include" />
+        <e p="EndTrigger.cs" t="Include" />
+        <e p="GameManager.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Homework" t="Include">
             <e p="AiController.cs" t="Include" />
             <e p="Button.cs" t="Include" />
             <e p="CoinSpin.cs" t="Include" />
+            <e p="Coroutine.cs" t="Include" />
             <e p="Countdown.cs" t="Include" />
             <e p="EmemyMovesOnScriptedPath.cs" t="Include" />
+            <e p="HealthEmptyDeath.cs" t="Include" />
             <e p="LevelGenerater.cs" t="Include" />
             <e p="PracticeMoveAndDoubleJump.cs" t="Include" />
-            <e p="Respawn.cs" t="Include" />
             <e p="ReviewController.cs" t="Include" />
             <e p="SpriteCostumePowerup.cs" t="Include" />
+            <e p="WaterDeath.cs" t="Include" />
           </e>
           <e p="Hw" t="Include">
             <e p="HwCameraFollowsPlayer.cs" t="Include" />
@@ -43,7 +48,7 @@
             <e p="HealthImageBehavior.cs" t="Include" />
             <e p="HoldCoroutine.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
-            <e p="Instancing.cs" t="Include" />
+            <e p="InstancingBehavior.cs" t="Include" />
             <e p="MagicImageBehavior.cs" t="Include" />
             <e p="MonoBehaviors.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
