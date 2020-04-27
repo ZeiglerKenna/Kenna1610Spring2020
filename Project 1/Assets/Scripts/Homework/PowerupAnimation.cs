@@ -2,21 +2,16 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SimpleCoroutine : MonoBehaviour
+
+public class PowerupAnimation : MonoBehaviour
 {
     public float seconds = 1f;
     private WaitForSeconds waitObj;
-    public bool canRun { get; set; } = true;
-    public UnityEvent startEvent, repeatEvent;
+    public UnityEvent repeatEvent;
 
     private void Awake()
     {
         waitObj = new WaitForSeconds(seconds);
-    }
-
-    public void Start()
-    {
-        startEvent.Invoke();
     }
 
     public void Restart()
@@ -26,8 +21,6 @@ public class SimpleCoroutine : MonoBehaviour
 
     public IEnumerator OnStartCoroutine()
     {
-        canRun = true;
-        while (canRun)
         {
             repeatEvent.Invoke();
             yield return waitObj;

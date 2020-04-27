@@ -8,6 +8,8 @@ public class HealthImageBehavior : MonoBehaviour
     private Image imageObj;
     public FloatData dataObj;
     public float t;
+    public float restartDelay = 1f;
+    public GameManager gameManager;
 
     private void Start()
     {
@@ -37,9 +39,10 @@ public class HealthImageBehavior : MonoBehaviour
             t = t + 0.1f;
         }
 
-        if (imageObj.fillAmount <= 0)
+        if (imageObj.fillAmount <= 0.01)
         {
-            
+            gameManager.EndGame();
         }
     }
+
 }

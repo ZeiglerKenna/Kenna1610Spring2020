@@ -6,19 +6,21 @@
     <e p="D:\MyDocuments\GitKraken\Kenna1610Spring2020\Project 1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="CoinCounter.cs" t="Include" />
-        <e p="EndTrigger.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Homework" t="Include">
             <e p="AiController.cs" t="Include" />
             <e p="Button.cs" t="Include" />
+            <e p="CoinCounter.cs" t="Include" />
             <e p="CoinSpin.cs" t="Include" />
             <e p="Coroutine.cs" t="Include" />
             <e p="Countdown.cs" t="Include" />
+            <e p="DamageAnimation.cs" t="Include" />
             <e p="EmemyMovesOnScriptedPath.cs" t="Include" />
+            <e p="EndTrigger.cs" t="Include" />
             <e p="HealthEmptyDeath.cs" t="Include" />
             <e p="LevelGenerater.cs" t="Include" />
+            <e p="PowerupAnimation.cs" t="Include" />
             <e p="PracticeMoveAndDoubleJump.cs" t="Include" />
             <e p="ReviewController.cs" t="Include" />
             <e p="SpriteCostumePowerup.cs" t="Include" />

@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour
     private bool gameHasEnded = false;
     public float restartDelay = 1f;
     public GameObject completeLevelUI;
+    public FloatData health;
+    public IntData coinCounter;
+    public IntData jumpCount;
 
     public void CompleteLevel()
     {
@@ -20,9 +23,12 @@ public class GameManager : MonoBehaviour
             Invoke("Restart", restartDelay);
         }
     }
-
+    
     void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        health.value = 1;
+        coinCounter.value = 0;
+        jumpCount.value = 2;
     }
 }
